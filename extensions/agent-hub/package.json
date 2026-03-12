@@ -1,0 +1,9 @@
+{
+  "name": "agent-hub",
+  "version": "0.1.0",
+  "description": "AI session aggregator - unified view of all your AI conversations",
+  "type": "module",
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  }
+}

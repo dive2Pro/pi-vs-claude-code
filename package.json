@@ -4,6 +4,9 @@
   "type": "module",
   "description": "Pi Coding Agent extension playground",
   "dependencies": {
+    "@mariozechner/pi-coding-agent": "^0.57.1",
+    "@mariozechner/pi-tui": "^0.57.1",
+    "@sinclair/typebox": "^0.34.48",
     "yaml": "^2.8.0"
   }
 }

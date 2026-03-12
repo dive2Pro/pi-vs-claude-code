@@ -367,6 +367,7 @@ export default function (pi: ExtensionAPI) {
 			const proc = spawn("pi", args, {
 				stdio: ["ignore", "pipe", "pipe"],
 				env: { ...process.env },
+				shell: true,  // Required on Windows for .cmd files
 			});
 
 			const timer = setInterval(() => {
